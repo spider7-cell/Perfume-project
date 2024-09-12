@@ -1,0 +1,84 @@
+h1{ font-family : "fraunces",serif ;
+    font-weight : 700 ;
+	color : hsl(212, 21%, 14%)}
+body{ background-color : hsl(30, 38%, 92%);
+}
+p{ font-size : 18px;
+   color :  hsl(228, 12%, 48%); }
+ h2 { color : hsl(158, 36%, 37%);
+      font-family : "fraunces",serif ;
+    font-weight : 700 ;}
+h3 { font-family : "Montserrat" , sans-serif;
+     font-weight : 500, 700 ;
+	 font-size : 20px ;
+	 border : 0.1px solid white ;
+	 border-radius : 10px ;
+	 background-color :  hsl(158, 36%, 37%);
+	 color : hsl(0, 0%, 100%);
+	 margin : 20 10 20 10 ;
+	 padding : 10px 50px 10px 50px ;
+}
+.container {
+	display : flex;
+	position : center ;
+	box-sizing : border-box ;
+	height : 100hx;
+	justify-content : center ;
+	margin : 90 90 90 90 ;
+	border-radius : 10px;
+}
+.content {
+           background-color : white ;
+		   align-content : center;
+		   justify-content : center ;
+		   padding : 20px 30px 20px 30px;
+		   border-radius : 0px 10px 10px 0px;
+		   
+}
+img { 
+      max-width : 500px ; 
+      max-height : 500px ;
+	  padding : 0px;
+	  border-radius : 10px 0px 0px 10px;
+	 
+}
+.strike { color : gray ;
+          font-family : none ;
+		  }
+.line {
+	display: block ;
+}
+.line1,.line2 {
+	display : inline ;
+}
+/* Base styles for the image */
+img.responsive-image {
+    width: 100%; /* Default width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Styles for mobile devices (375px width) */
+@media (max-width: 375px) {
+    .mobile-image {
+		display : block ;
+        width: 100% ;
+        height : auto ;		/* The image will take up the full width of its container */
+        /* Add some rounding to the corners */
+    }
+}
+
+/* Styles for desktop devices (1440px width and above) */
+@media (min-width: 1440px) {
+    .desktop-image {
+		display : block ;
+        width: 100%;
+        height : auto ;		/* The image will take up 60% of its container */
+     /* Increase the rounding of the corners */
+    }
+}
+.mobile-image {
+	display : none ;
+}
+a { color : white ; 
+    text-decoration : none ;
+	cursor : pointer ;}
